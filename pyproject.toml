@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ia+data-scraping"
+version = "0.1.0"
+description = ""
+authors = [" guilherme-biscaino  < guilhermebs.bs2@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "^2.18.0"
+keras = "^3.8.0"
+selenium = "^4.28.1"
+pandas = "^2.2.3"
+pyshorteners = "^1.0.1"
+pillow = "^11.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
